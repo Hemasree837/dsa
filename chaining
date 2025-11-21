@@ -1,0 +1,25 @@
+class Main{
+  public static void main(String args[])
+  {
+    Whatsapp wb=new Whatsapp();
+    wb.dd();
+  }
+}
+class Whatsapp{
+  public static void aa(){
+    System.out.println("Chatting");
+    dd();
+  }
+  public static void bb(){
+    System.out.println("calls");
+    aa();
+  }
+  public static void cc(){
+    System.out.println("Status");
+    bb();
+  }
+  public static void dd(){
+    System.out.println("Meta AI");
+    cc();
+  }
+}

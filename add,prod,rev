@@ -1,0 +1,24 @@
+public class add {
+    public static void main(String args[])
+    {
+        int num=7563291;
+        int sum=0;
+        int prod=1;
+        int count=0;
+        int rev=0;
+        while(num!=0)
+        {
+            int ld=num%10;
+            sum+=ld;
+            prod*=ld;
+            count++;
+            rev=rev*10+ld;
+            num=num/10;
+        }
+        System.out.println(sum);
+        System.out.println(prod);
+        System.out.println(count);
+        System.out.println(rev);
+
+    }
+}
